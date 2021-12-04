@@ -4,7 +4,7 @@ from time import sleep
 
 from simpleaudio.shiny import stop_all
 from config import *
-from logging import basicConfig, INFO, info, debug, DEBUG
+#from logging import basicConfig, INFO, info, debug, DEBUG
 from random import choice
 
 hotkeys = {k:[sa.WaveObject.from_wave_file(val) for val in v] for k,v in hotkeys.items()}
