@@ -22,5 +22,5 @@ to run, simply type\
 Press ctrl+i and it should play waw.wav\
 ctrl+o stops the sounds and ctrl+c stops the entire script.\
 \
-I recommend using youtube-dl to extract the audio from videos. You can easily do that with following the command:
+I recommend using youtube-dl to extract the audio from videos. You can easily do that with the following command:
 `youtube-dl -x --audio-format wav -o sounds/mynewsound <youtube-url-here>`
