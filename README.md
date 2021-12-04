@@ -3,11 +3,12 @@ I wanted to have multiple sounds attached to the same hotkey. By pressing the ho
 The idea is that any of the sounds convey the same sentiment, but instead of reusing the same sound over and over, some variation is allowed while not running out of hotkeys and not being difficult to memorize dozens of hotkeys.
 
 tested on python 3.10.
+
+### Installation
 modules used:
 simpleaudio
 keyboard
 
-### Installation
 to install them, use pip
 `pip install simpleaudio keyboard`
 
