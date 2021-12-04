@@ -1,6 +1,7 @@
 Tiny soundboard software.
 I wanted to have multiple sounds attached to the same hotkey. By pressing the hotkey, a random sound linked to that hotkey is played.
 The idea is that any of the sounds convey the same sentiment, but instead of reusing the same sound over and over, some variation is allowed while not running out of hotkeys and not being difficult to memorize dozens of hotkeys.
+The Soundboard works even when out of focus.
 
 tested on python 3.10.
 
@@ -14,5 +15,10 @@ to install them, use pip
 
 ### Usage
 
-Put the audio files inside the sounds directory.
+Put the .WAV files inside the sounds directory.
 Create a file named config.py. Use default_config.py as a model.
+to run, simply type
+`py main.py`
+
+I recommend using youtube-dl to extract the audio from videos. You can easily do that with following command:
+`youtube-dl -x --audio-format wav -o sounds/mynewsound <youtube-url-here>`
